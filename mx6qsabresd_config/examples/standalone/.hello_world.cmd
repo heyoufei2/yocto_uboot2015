@@ -1,0 +1,1 @@
+cmd_examples/standalone/hello_world := arm-poky-linux-gnueabi-ld.bfd   -g -Ttext 0xc100000 -o examples/standalone/hello_world -e hello_world examples/standalone/hello_world.o examples/standalone/libstubs.o -L /second_extend/yocto_file/new_fsl_bsp/build/tmp/sysroots/imx6qsabresd/usr/lib/arm-poky-linux-gnueabi/4.9.2 -lgcc
