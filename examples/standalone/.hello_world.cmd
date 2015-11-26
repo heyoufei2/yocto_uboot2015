@@ -1,0 +1,1 @@
+cmd_examples/standalone/hello_world := arm-poky-linux-gnueabi-ld.bfd   -g -Ttext 0xc100000 -o examples/standalone/hello_world -e hello_world examples/standalone/hello_world.o examples/standalone/libstubs.o -L /opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/4.9.1 -lgcc
